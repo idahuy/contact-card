@@ -7,7 +7,6 @@ app.use(express.static('../client/dist/'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
 require('./routes/htmlRoutes.js')(app);
 
 app.listen(PORT, function() {
