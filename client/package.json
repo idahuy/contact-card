@@ -5,7 +5,7 @@
   "private": "true",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode development",
+    "build": "webpack --mode production",
     "start": "webpack --watch"
   },
   "keywords": [],
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
     "html-webpack-plugin": "^5.5.0",
+    "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.5.4"
   }
 }
